@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.hide{
+	visibility: hidden;
+	display: none;
+}
+.fbc{
+	display: flex;
+}
+.fbi{
+	flex: 0 1 auto;
+}
+.fb-x{
+	flex-flow: row nowrap;
+	width: 100%;
+}
+.fb-y{
+	flex-direction: column;
+	height: 100%;
+}
+</style>
+</head>
+<body class="fbc fb-x">
+<div class="fbi fbc fb-y">
+	<button id=refresh class=fbi>refresh</button>
+	<button id=workspace class=fbi>workspace</button>
+	<button id=save class=fbi>save</button>
+</div>
+<ul class=fbi>
+</ul>
+<textarea id=editor class=fbi></textarea>
+<iframe class=fbi src="./preview.html" sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts" allowfullscreen="true" allowtransparency="true" allowpaymentrequest="true"></iframe>
+
+<script src=./node_modules/pico-common/bin/pico.min.js></script>
+<script src=./main.js></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "ide",
+  "version": "0.0.1",
+  "description": "pico ide",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldarren/pico-ide.git"
+  },
+  "keywords": [
+    "pico",
+    "ide"
+  ],
+  "author": "Darren Liew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldarren/pico-ide/issues"
+  },
+  "homepage": "https://github.com/ldarren/pico-ide#readme",
+  "dependencies": {
+    "pico-common": "^0.11.6"
+  }
+}
